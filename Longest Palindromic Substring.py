@@ -2,7 +2,6 @@
 #!/usr/bin/python
 
 
-
 def helper(s, l, r):
     while l >= 0 and r < len(s) and s[l] == s[r]:
     	print('000',s,l,r,s[l],s[r])
@@ -30,12 +29,6 @@ for i in range(len(s)):
 		res=tmp
 		print('555',res)
 	print('-'*30)
-
-
-
-
-
-
 
 
 class Solution(object):
